@@ -2,9 +2,9 @@ package com.wuchangi.powerfulcalculator.activities;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,7 +14,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import com.wuchangi.powerfulcalculator.R;
 import com.wuchangi.powerfulcalculator.base.BaseActivity;
-import me.grantland.widget.AutofitHelper;
 
 import java.math.BigDecimal;
 
